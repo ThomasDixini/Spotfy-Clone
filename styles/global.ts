@@ -12,8 +12,11 @@ export const GlobalStyle = createGlobalStyle`
 :root {
     --white: #ffffff;
 
+    
+
     --gray-100: #e1e1e6;
     --gray-300: #a8a8b3;
+    --gray-500: #323435;
     --gray-900: #121214;
 
     --cyan-500:  #61dafb;

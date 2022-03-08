@@ -2,6 +2,16 @@
 
 export default function Home() {
   return (
-    <h1>Hello World</h1>
+    <header>
+      <nav>
+        <img src="\images\left-button" alt="" />
+        <img src="\images\right-button" alt="" />
+
+        <a> Playlists </a>
+        <a> Podcasts </a>
+        <a> Artistas </a>
+        <a> Álbuns </a>
+      </nav>
+    </header>
   )
 }

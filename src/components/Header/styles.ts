@@ -15,9 +15,9 @@ export const Container = styled.header`
         gap: 1.5rem;
 
         a {
-            padding: 1rem;
+            padding: 1rem 2rem;
         }
-        
+    
     }
 
 

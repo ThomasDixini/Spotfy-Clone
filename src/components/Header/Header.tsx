@@ -1,13 +1,21 @@
 import { ButtonAncor, Container } from "./styles";
 
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
+
 
 
 export function Header() {
     return(
         <Container>
             <nav>
-                <img src="\images\left-button" alt="" />
-                <img src="\images\right-button" alt="" />
+                <button>
+                <AiOutlineArrowLeft />
+                </button>
+
+                <button>
+                <AiOutlineArrowRight />
+                </button>
+                
 
                 <ButtonAncor isActive={true}> Playlists </ButtonAncor>
                 <ButtonAncor> Podcasts </ButtonAncor>
